@@ -1,5 +1,4 @@
-﻿const API_URL = 'http://localhost:3000/api/tareas';
-
+﻿const API_URL = '/api/tareas';
 // Procesar respuestas y controlar errores HTTP
 async function procesarRespuesta(response) {
     const datos = await response.json().catch(() => null);
